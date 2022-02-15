@@ -44,5 +44,14 @@ public class Stack {
          }
          return 0 ;
 	}
+	//Get the top most element of Stack
+	public char peek() {
+		if(!isEmpty()) {
+			return stackArray[top];
+		}else {
+			System.out.println("Stack is empty");
+		}
+		return 0 ;
+	}
 
 }
