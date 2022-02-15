@@ -23,6 +23,10 @@ public class StackMain {
 			System.out.println("top:" + ch2);
 			
 		}
+		CheckBrackets.validateParenthesis("3 + ( (6 * 2) - 3)");
+		CheckBrackets.validateParenthesis("5 * 6 + (2 - 5");
+		CheckBrackets.validateParenthesis("5 * 6 +  (2 - 5))");
+		
 	}
 
 }
